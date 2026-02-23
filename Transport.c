@@ -50,17 +50,12 @@ stream_t fieldBusOutStream =
 uint16_t Transport_frame_count = 0;
 
 uint8_t received_ID = 0;
-#ifdef CTR_Master
 uint8_t My_ID = 1;
 uint8_t sensor_Qty = 0;
 uint32_t last_poll = 0;
 uint32_t last_new = 0;
 uint8_t sensor_polled = 1;
-#endif
 
-#ifdef CRYS_Slave
-uint8_t My_ID;
-#endif
 
 // UART RX callback: pushes received bytes to FIFO and detects frames
 void Transport_rx_callback(char d)
@@ -161,7 +156,6 @@ void empty_buffer(void)   //empty UART buffer
 	return;
 }
 
-#ifdef CTR_Master
 
 void poll_sensors(void)			// send permission to talk
 {
@@ -193,8 +187,6 @@ void poll_sensors(void)			// send permission to talk
 			}
 		}
 	}
-
 }
 
-#endif
 

@@ -68,6 +68,5 @@
 
 
 // Control master mode definition
-#define CTR_Master
 
 // Board name definition
