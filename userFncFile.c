@@ -12,6 +12,12 @@
 #include "inc/EmicFieldBus.h"
 #include "inc/EMICBus.h"
 
+void SystemConfig()
+{
+    sensor_Qty = 1;
+}
+
+
 void onReset()
 {
     LEDs_Led1_blink(125, 250, 3);

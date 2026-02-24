@@ -12,6 +12,7 @@
 #include "streamOut.h"
 
 /* Function Prototypes */
+void SystemConfig();
 void onReset();
 void emicFBe(char* TAG, const streamIn_t* const Message);
 void eI2C(char* tag, const streamIn_t* const msg);

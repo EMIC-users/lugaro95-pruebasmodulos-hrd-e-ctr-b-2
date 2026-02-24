@@ -6,7 +6,7 @@ Tool Name:
 Command:
   -p24FJ64GA002 \
   -o \
-  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/dist/production/target.production.elf \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/dist/production/target.production.elf \
   -L/opt/microchip/xc16/v2.10/bin/bin/.. \
   -L/opt/microchip/xc16/v2.10/bin/bin/../../lib \
   -L/opt/microchip/xc16/v2.10/bin/bin/../../support/PIC24E/gld \
@@ -16,22 +16,22 @@ Command:
   -L/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33C/gld \
   -L/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33E/gld \
   -L/opt/microchip/xc16/v2.10/bin/bin/../../support/dsPIC33F/gld \
-  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/timer.o \
-  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/systemTimer.o \
-  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led1.o \
-  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led2.o \
-  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led3.o \
-  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/timer_api1.o \
-  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/streamIn.o \
-  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/UART1.o \
-  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/stream.o \
-  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/Transport.o \
-  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/EmicFieldBus.o \
-  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o \
-  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2_driver.o \
-  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/EMICBus.o \
-  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/main.o \
-  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/userFncFile.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/timer.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/systemTimer.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led1.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led2.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led3.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/timer_api1.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/streamIn.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/UART1.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/stream.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/Transport.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/EmicFieldBus.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2_driver.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/EMICBus.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/main.o \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/userFncFile.o \
   --defsym=__MPLAB_BUILD=1 \
   --defsym=__MPLAB_DEBUG=0 \
   -Tp24FJ64GA002.gld.00 \
@@ -46,10 +46,10 @@ Command:
   --stackguard=16 \
   --no-force-link \
   --smart-io \
-  -Map=/root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/dist/production/target.production.map \
+  -Map=/root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/dist/production/target.production.map \
   --report-mem \
   --memorysummary \
-  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/dist/production/memoryfile.xml \
+  /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/dist/production/memoryfile.xml \
   -start-group \
   --library=c99-pic30-elf \
   --library=m-elf \
@@ -67,17 +67,17 @@ Archive member included because of file (symbol)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(crt_start_mode_normal.Meo)
                               (__crt_start_mode_normal)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(fixunssfsi.XX_o)
-                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o (___fixunssfsi)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o (___fixunssfsi)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(floatunsisf.XX_o)
-                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o (___floatunsisf)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o (___floatunsisf)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(funpack.XX_o)
                               /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(fixunssfsi.XX_o) (__funpack)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(udivsi3.XX_o)
-                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/UART1.o (___udivsi3)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/UART1.o (___udivsi3)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(addsf3x.XX_o)
-                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o (___addsf3)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o (___addsf3)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(divsf3x.XX_o)
-                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o (___divsf3)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o (___divsf3)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(dnrmpackfx.XX_o)
                               /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(addsf3x.XX_o) (__dnrmpackf)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(typefx.XX_o)
@@ -95,17 +95,17 @@ Archive member included because of file (symbol)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(fpack.XX_o)
                               /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(floatundisf.XX_o) (__fpack)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(atof.XX_o)
-                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/streamIn.o (_atof)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/streamIn.o (_atof)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(atoi.XX_o)
-                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/streamIn.o (_atoi)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/streamIn.o (_atoi)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(atol.XX_o)
-                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/streamIn.o (_atol)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/streamIn.o (_atol)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(atoll.XX_o)
-                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/streamIn.o (_atoll)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/streamIn.o (_atoll)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(memset.XX_o)
-                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/streamIn.o (_memset)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/streamIn.o (_memset)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(snprintf.XX_o)
-                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/streamIn.o (_snprintf)
+                              /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/streamIn.o (_snprintf)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(strtod.XX_o)
                               /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(atof.XX_o) (_strtod)
 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(vsnprintf.XX_o)
@@ -816,22 +816,22 @@ CONFIG1          0x00abfe           0x000002
 
 Linker script and memory map
 
-LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/timer.o
-LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/systemTimer.o
-LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led1.o
-LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led2.o
-LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led3.o
-LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/timer_api1.o
-LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/streamIn.o
-LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/UART1.o
-LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/stream.o
-LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/Transport.o
-LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/EmicFieldBus.o
-LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o
-LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2_driver.o
-LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/EMICBus.o
-LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/main.o
-LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/userFncFile.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/timer.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/systemTimer.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led1.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led2.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led3.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/timer_api1.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/streamIn.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/UART1.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/stream.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/Transport.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/EmicFieldBus.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2_driver.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/EMICBus.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/main.o
+LOAD /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/userFncFile.o
                     0x0001                  __MPLAB_BUILD = 0x1
                     0x0000                  __MPLAB_DEBUG = 0x0
 LOAD pPIC24Fxxx
@@ -864,12 +864,12 @@ LOAD /opt/microchip/xc16/v2.10/bin/bin/../../lib/libfx-elf.a
  *(.user_init)
  *(.handle)
  *(.isr*)
- .isr.text        0x0002fc         0x28 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/timer.o
+ .isr.text        0x0002fc         0x28 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/timer.o
                   0x0002fc                  __T4Interrupt
- .isr.text        0x000324         0x6e /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/UART1.o
+ .isr.text        0x000324         0x6e /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/UART1.o
                   0x000324                  __U1TXInterrupt
                   0x000366                  __U1RXInterrupt
- .isr.text        0x000392         0x4c /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o
+ .isr.text        0x000392         0x4c /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o
                   0x000392                  __SI2C2Interrupt
                   0x0003b8                  __MI2C2Interrupt
  .isr             0x0003de          0x4 default_isr
@@ -2019,7 +2019,7 @@ LOAD /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a
 LOAD /opt/microchip/xc16/v2.10/bin/bin/../../lib/libm-elf.a
 LOAD /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a
 END GROUP
-OUTPUT(/root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/dist/production/target.production.elf elf32-pic30)
+OUTPUT(/root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/dist/production/target.production.elf elf32-pic30)
 LOAD jump_table
 LOAD default_isr
 LOAD data_init
@@ -2027,37 +2027,37 @@ LOAD data_init
 __c30_signature
                   0x000520        0x228
  __c30_signature
-                  0x000520          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/timer.o
+                  0x000520          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/timer.o
  __c30_signature
-                  0x000526          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/systemTimer.o
+                  0x000526          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/systemTimer.o
  __c30_signature
-                  0x00052c          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led1.o
+                  0x00052c          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led1.o
  __c30_signature
-                  0x000532          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led2.o
+                  0x000532          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led2.o
  __c30_signature
-                  0x000538          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led3.o
+                  0x000538          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led3.o
  __c30_signature
-                  0x00053e          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/timer_api1.o
+                  0x00053e          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/timer_api1.o
  __c30_signature
-                  0x000544          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/streamIn.o
+                  0x000544          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/streamIn.o
  __c30_signature
-                  0x00054a          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/UART1.o
+                  0x00054a          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/UART1.o
  __c30_signature
-                  0x000550          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/stream.o
+                  0x000550          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/stream.o
  __c30_signature
-                  0x000556          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/Transport.o
+                  0x000556          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/Transport.o
  __c30_signature
-                  0x00055c          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/EmicFieldBus.o
+                  0x00055c          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/EmicFieldBus.o
  __c30_signature
-                  0x000562          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o
+                  0x000562          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o
  __c30_signature
-                  0x000568          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2_driver.o
+                  0x000568          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2_driver.o
  __c30_signature
-                  0x00056e          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/EMICBus.o
+                  0x00056e          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/EMICBus.o
  __c30_signature
-                  0x000574          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/main.o
+                  0x000574          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/main.o
  __c30_signature
-                  0x00057a          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/userFncFile.o
+                  0x00057a          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/userFncFile.o
  __c30_signature
                   0x000580          0x6 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-pic30-elf.a(crt0_standard.o)
  __c30_signature
@@ -2214,31 +2214,31 @@ __c30_signature
 __xc_reference_data
 
 .nbss               0x0800         0x36
- .nbss              0x0800          0xc /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/Transport.o
+ .nbss              0x0800          0xc /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/Transport.o
                     0x0800                  _Transport_frame_count
                     0x0802                  _received_ID
                     0x0803                  _sensor_Qty
                     0x0804                  _last_poll
                     0x0808                  _last_new
- .nbss              0x080c          0xa /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led1.o
- .nbss              0x0816          0xa /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led2.o
- .nbss              0x0820          0xa /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led3.o
- .nbss              0x082a          0x4 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/systemTimer.o
- .nbss              0x082e          0x4 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2_driver.o
+ .nbss              0x080c          0xa /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led1.o
+ .nbss              0x0816          0xa /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led2.o
+ .nbss              0x0820          0xa /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led3.o
+ .nbss              0x082a          0x4 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/systemTimer.o
+ .nbss              0x082e          0x4 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2_driver.o
                     0x082e                  _i2crfi_estado
                     0x082f                  _i2crfi_estado_rcv
                     0x0830                  _i2crfi_indice
                     0x0831                  _stopflag
- .nbss              0x0832          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/timer.o
- .nbss              0x0834          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/UART1.o
+ .nbss              0x0832          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/timer.o
+ .nbss              0x0834          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/UART1.o
                     0x0834                  _UART1_flowControlVar
                     0x0835                  _UART1_inverted
 
 .ndata              0x0836          0x4
- .ndata             0x0836          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/Transport.o
+ .ndata             0x0836          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/Transport.o
                     0x0836                  _My_ID
                     0x0837                  _sensor_polled
- .ndata             0x0838          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2_driver.o
+ .ndata             0x0838          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2_driver.o
                     0x0838                  _I2C_ID
 
 .nbss               0x083a          0x2
@@ -2246,21 +2246,21 @@ __xc_reference_data
                     0x083a                  _errno
 
 .bss                0x083c       0x108c
- .bss               0x083c        0x840 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/Transport.o
+ .bss               0x083c        0x840 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/Transport.o
                     0x083c                  _fieldBusInDataBuffer
                     0x0c3c                  _fieldBusOutDataBuffer
                     0x103c                  _fieldBusInFrameBuffer
                     0x105c                  _fieldBusOutFrameBuffer
- .bss               0x107c        0x440 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2_driver.o
- .bss               0x14bc        0x40c /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/UART1.o
+ .bss               0x107c        0x440 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2_driver.o
+ .bss               0x14bc        0x40c /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/UART1.o
                     0x14bc                  _UART1_IN_fifo
                     0x16c2                  _UART1_OUT_fifo
 
 .data               0x18c8         0xe4
- .data              0x18c8         0x38 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/Transport.o
+ .data              0x18c8         0x38 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/Transport.o
                     0x18c8                  _fieldBusInStream
                     0x18e4                  _fieldBusOutStream
- .data              0x1900         0x38 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2_driver.o
+ .data              0x1900         0x38 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2_driver.o
                     0x1900                  _i2c2InStream
                     0x191c                  _i2c2OutStream
  .data              0x1938         0x36 /opt/microchip/xc16/v2.10/bin/bin/../../lib/libc99-elf.a(floatscan.XX_o)
@@ -2279,49 +2279,49 @@ __xc_reference_data
 .ivt._T4Interrupt
                   0x00004a          0x2
  .ivt._T4Interrupt
-                  0x00004a          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/timer.o
+                  0x00004a          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/timer.o
 
 .ivt._U1TXInterrupt
                   0x00002c          0x2
  .ivt._U1TXInterrupt
-                  0x00002c          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/UART1.o
+                  0x00002c          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/UART1.o
 
 .ivt._U1RXInterrupt
                   0x00002a          0x2
  .ivt._U1RXInterrupt
-                  0x00002a          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/UART1.o
+                  0x00002a          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/UART1.o
 
 .ivt._SI2C2Interrupt
                   0x000076          0x2
  .ivt._SI2C2Interrupt
-                  0x000076          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o
+                  0x000076          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o
 
 .ivt._MI2C2Interrupt
                   0x000078          0x2
  .ivt._MI2C2Interrupt
-                  0x000078          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o
+                  0x000078          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o
 
 .config_JTAGEN    0x00abfe          0x2
  .config_JTAGEN
-                  0x00abfe          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/main.o
+                  0x00abfe          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/main.o
 
 .config_IESO      0x00abfc          0x2
- .config_IESO     0x00abfc          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/main.o
+ .config_IESO     0x00abfc          0x2 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/main.o
 
 .const              0xc670         0x1e load address 0x004670  
- .const             0xc670          0x8 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/UART1.o
+ .const             0xc670          0x8 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/UART1.o
                     0xc670                  _streamIn_Uart1
                     0xc674                  _streamOut_Uart1
- .const             0xc678          0x8 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/EmicFieldBus.o
+ .const             0xc678          0x8 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/EmicFieldBus.o
                     0xc678                  _streamIn_fieldBus
                     0xc67c                  _streamOut_fieldBus
- .const             0xc680          0x8 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2_driver.o
+ .const             0xc680          0x8 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2_driver.o
                     0xc680                  _streamIn_I2C
                     0xc684                  _streamOut_I2C
- .const             0xc688          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/userFncFile.o
+ .const             0xc688          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/userFncFile.o
 
 .text             0x00468e        0xe40
- .text            0x00468e        0x598 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/streamIn.o
+ .text            0x00468e        0x598 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/streamIn.o
                   0x00468e                  _streamIn_t_ptr_to_float
                   0x0046ca                  _streamIn_t_ptr_to_char
                   0x004704                  _streamIn_t_ptr_to_uint8_t
@@ -2334,7 +2334,7 @@ __xc_reference_data
                   0x0048ac                  _streamIn_t_ptr_to_int64_t
                   0x0048e8                  _streamIn_t_ptr_to_ascii
                   0x004928                  _sendDataToStream
- .text            0x004c26        0x2de /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/UART1.o
+ .text            0x004c26        0x2de /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/UART1.o
                   0x004c26                  _UART1_init_fifo
                   0x004c40                  _UART1_is_empty
                   0x004c54                  _UART1_is_full
@@ -2353,7 +2353,7 @@ __xc_reference_data
                   0x004ee2                  _UART1_IN_count
                   0x004eea                  _UART1_OUT_push
                   0x004ef8                  _UART1_OUT_count
- .text            0x004f04        0x2c0 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2_driver.o
+ .text            0x004f04        0x2c0 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2_driver.o
                   0x004f04                  _Init_I2C_Driver
                   0x004f10                  _getAvailable_out_count
                   0x004f24                  _countI2cStreamIn
@@ -2373,7 +2373,7 @@ __xc_reference_data
                   0x0050c8                  _i2cOpenReadFrame
                   0x005114                  _I2c_driver_callback_slave
                   0x005154                  _I2c_driver_callback_master
- .text            0x0051c4        0x190 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/stream.o
+ .text            0x0051c4        0x190 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/stream.o
                   0x0051c4                  _streamPushCtr
                   0x005212                  _streamPush
                   0x00524c                  _streamPop
@@ -2381,7 +2381,7 @@ __xc_reference_data
                   0x0052c6                  _streamOpenReadFrame
                   0x005312                  _streamReOpenReadFrame
                   0x00532a                  _streamCloseReadFrame
- .text            0x005354        0x17a /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/Transport.o
+ .text            0x005354        0x17a /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/Transport.o
                   0x005354                  _Transport_rx_callback
                   0x00536e                  _init_EMICfb
                   0x005380                  _poll_fieldBusTransport
@@ -2393,7 +2393,7 @@ __xc_reference_data
  .dinit           0x0054ce        0x126 data_init
 
 .text             0x0055f4        0x4f6
- .text            0x0055f4        0x104 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o
+ .text            0x0055f4        0x104 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o
                   0x0055f4                  _Init_Master_I2C2
                   0x00565c                  _CollisionReset_I2C2
                   0x005664                  _OverflowReset_I2C2
@@ -2407,39 +2407,39 @@ __xc_reference_data
                   0x0056c6                  _Stop_I2C2
                   0x0056d8                  _Write_I2C2
                   0x0056e4                  _Read_I2C2
- .text            0x0056f8        0x100 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/EMICBus.o
+ .text            0x0056f8        0x100 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/EMICBus.o
                   0x0056f8                  _pI2C
                   0x005714                  _EMICBus_init
                   0x005722                  _poll_EMICBus
- .text            0x0057f8         0x96 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/EmicFieldBus.o
+ .text            0x0057f8         0x96 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/EmicFieldBus.o
                   0x0057f8                  _emicFBp
                   0x005810                  _poll_EMICfb
                   0x005864                  _getBusStreamIn
                   0x00586e                  _countBusStreamIn
                   0x005876                  _setBusStreamOut
                   0x005886                  _countBusStreamOut
- .text            0x00588e         0x86 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led1.o
+ .text            0x00588e         0x86 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led1.o
                   0x00588e                  _LEDs_Led1_init
                   0x005896                  _LEDs_Led1_blink
                   0x0058b6                  _LEDs_Led1_poll
- .text            0x005914         0x86 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led2.o
+ .text            0x005914         0x86 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led2.o
                   0x005914                  _LEDs_Led2_init
                   0x00591c                  _LEDs_Led2_blink
                   0x00593c                  _LEDs_Led2_poll
- .text            0x00599a         0x86 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led3.o
+ .text            0x00599a         0x86 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led3.o
                   0x00599a                  _LEDs_Led3_init
                   0x0059a2                  _LEDs_Led3_blink
                   0x0059c2                  _LEDs_Led3_poll
- .text            0x005a20         0x5e /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/userFncFile.o
+ .text            0x005a20         0x5e /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/userFncFile.o
                   0x005a20                  _onReset
                   0x005a3e                  _emicFBe
                   0x005a5e                  _eI2C
- .text            0x005a7e         0x30 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/main.o
+ .text            0x005a7e         0x30 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/main.o
                   0x005a7e                  _initSystem
                   0x005a8c                  _main
- .text            0x005aae         0x26 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/systemTimer.o
+ .text            0x005aae         0x26 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/systemTimer.o
                   0x005aae                  _getSystemMilis
                   0x005ab8                  _callback
                   0x005aca                  _systemTimeInit
- .text            0x005ad4         0x16 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com//PruebasModulos/HRD_E-CTR-B_2/build/default/production/timer.o
+ .text            0x005ad4         0x16 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/timer.o
                   0x005ad4                  _timer4_init
