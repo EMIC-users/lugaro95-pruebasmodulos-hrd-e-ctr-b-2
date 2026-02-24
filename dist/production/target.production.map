@@ -248,9 +248,9 @@ section                    address   length (PC units)   length (bytes) (dec)
 .const                      0x4670                0x1e            0x2d  (45)
 .text                       0x468e               0xe40          0x1560  (5472)
 .dinit                      0x54ce               0x126           0x1b9  (441)
-.text                       0x55f4               0x4f6           0x771  (1905)
+.text                       0x55f4               0x502           0x783  (1923)
 
-                 Total "program" memory used (bytes):         0x855f  (34143) 52%
+                 Total "program" memory used (bytes):         0x8571  (34161) 52%
 
 
 "data" Memory  [Origin = 0x800, Length = 0x2000]
@@ -558,15 +558,16 @@ External Symbols in Program Memory (by address):
                   0x00599a                  _LEDs_Led3_init
                   0x0059a2                  _LEDs_Led3_blink
                   0x0059c2                  _LEDs_Led3_poll
-                  0x005a20                  _onReset
-                  0x005a3e                  _emicFBe
-                  0x005a5e                  _eI2C
-                  0x005a7e                  _initSystem
-                  0x005a8c                  _main
-                  0x005aae                  _getSystemMilis
-                  0x005ab8                  _callback
-                  0x005aca                  _systemTimeInit
-                  0x005ad4                  _timer4_init
+                  0x005a20                  _SystemConfig
+                  0x005a2a                  _onReset
+                  0x005a48                  _emicFBe
+                  0x005a68                  _eI2C
+                  0x005a88                  _initSystem
+                  0x005a96                  _main
+                  0x005aba                  _getSystemMilis
+                  0x005ac4                  _callback
+                  0x005ad6                  _systemTimeInit
+                  0x005ae0                  _timer4_init
 
 External Symbols in Program Memory (by name):
 
@@ -596,6 +597,7 @@ External Symbols in Program Memory (by name):
                   0x0056e4                  _Read_I2C2
                   0x0056b4                  _Start_I2C2
                   0x0056c6                  _Stop_I2C2
+                  0x005a20                  _SystemConfig
                   0x005354                  _Transport_rx_callback
                   0x004ee2                  _UART1_IN_count
                   0x004ed8                  _UART1_IN_pop
@@ -720,13 +722,13 @@ External Symbols in Program Memory (by name):
                   0x000a6a                  _atoi
                   0x000aca                  _atol
                   0x000b32                  _atoll
-                  0x005ab8                  _callback
+                  0x005ac4                  _callback
                   0x00414c                  _copysignl
                   0x00586e                  _countBusStreamIn
                   0x005886                  _countBusStreamOut
                   0x004f24                  _countI2cStreamIn
-                  0x005a5e                  _eI2C
-                  0x005a3e                  _emicFBe
+                  0x005a68                  _eI2C
+                  0x005a48                  _emicFBe
                   0x0057f8                  _emicFBp
                   0x005444                  _empty_buffer
                   0x004180                  _fabsl
@@ -735,18 +737,18 @@ External Symbols in Program Memory (by name):
                   0x004f10                  _getAvailable_out_count
                   0x005864                  _getBusStreamIn
                   0x004f2c                  _getI2cStreamIn
-                  0x005aae                  _getSystemMilis
+                  0x005aba                  _getSystemMilis
                   0x005086                  _i2cCloseWriteFrame
                   0x0050c8                  _i2cOpenReadFrame
                   0x004f5a                  _ini_I2C_IN
                   0x004f84                  _ini_I2C_OUT
                   0x004fae                  _ini_I2C_OUT_FM
-                  0x005a7e                  _initSystem
+                  0x005a88                  _initSystem
                   0x00536e                  _init_EMICfb
-                  0x005a8c                  _main
+                  0x005a96                  _main
                   0x002602                  _memcpy
                   0x000b96                  _memset
-                  0x005a20                  _onReset
+                  0x005a2a                  _onReset
                   0x0056f8                  _pI2C
                   0x005722                  _poll_EMICBus
                   0x005810                  _poll_EMICfb
@@ -794,8 +796,8 @@ External Symbols in Program Memory (by name):
                   0x000cc8                  _strtod
                   0x000cc2                  _strtof
                   0x000cce                  _strtold
-                  0x005aca                  _systemTimeInit
-                  0x005ad4                  _timer4_init
+                  0x005ad6                  _systemTimeInit
+                  0x005ae0                  _timer4_init
                   0x002640                  _tolower
                   0x003556                  _toupper
                   0x002082                  _vfprintf
@@ -2392,7 +2394,7 @@ __xc_reference_data
 .dinit            0x0054ce        0x126
  .dinit           0x0054ce        0x126 data_init
 
-.text             0x0055f4        0x4f6
+.text             0x0055f4        0x502
  .text            0x0055f4        0x104 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o
                   0x0055f4                  _Init_Master_I2C2
                   0x00565c                  _CollisionReset_I2C2
@@ -2430,16 +2432,17 @@ __xc_reference_data
                   0x00599a                  _LEDs_Led3_init
                   0x0059a2                  _LEDs_Led3_blink
                   0x0059c2                  _LEDs_Led3_poll
- .text            0x005a20         0x5e /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/userFncFile.o
-                  0x005a20                  _onReset
-                  0x005a3e                  _emicFBe
-                  0x005a5e                  _eI2C
- .text            0x005a7e         0x30 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/main.o
-                  0x005a7e                  _initSystem
-                  0x005a8c                  _main
- .text            0x005aae         0x26 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/systemTimer.o
-                  0x005aae                  _getSystemMilis
-                  0x005ab8                  _callback
-                  0x005aca                  _systemTimeInit
- .text            0x005ad4         0x16 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/timer.o
-                  0x005ad4                  _timer4_init
+ .text            0x005a20         0x68 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/userFncFile.o
+                  0x005a20                  _SystemConfig
+                  0x005a2a                  _onReset
+                  0x005a48                  _emicFBe
+                  0x005a68                  _eI2C
+ .text            0x005a88         0x32 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/main.o
+                  0x005a88                  _initSystem
+                  0x005a96                  _main
+ .text            0x005aba         0x26 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/systemTimer.o
+                  0x005aba                  _getSystemMilis
+                  0x005ac4                  _callback
+                  0x005ad6                  _systemTimeInit
+ .text            0x005ae0         0x16 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/timer.o
+                  0x005ae0                  _timer4_init

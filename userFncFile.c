@@ -14,7 +14,7 @@
 
 void SystemConfig()
 {
-    sensor_Qty = 1;
+    sensor_Qty = 2;
 }
 
 

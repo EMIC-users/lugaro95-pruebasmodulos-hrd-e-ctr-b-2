@@ -58,7 +58,7 @@ uint8_t sensor_polled = 1;
 
 
 // UART RX callback: pushes received bytes to FIFO and detects frames
-void Transport_rx_callback(char d)
+void ISR_UART1_CALLBACK(char d)
 {
 	UART1_push(&UART1_IN_fifo, d);
 	if (d == FrameLf)
