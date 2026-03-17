@@ -246,11 +246,11 @@ section                    address   length (PC units)   length (bytes) (dec)
 -------                    -------   -----------------   --------------------
 .text                        0x200              0x4484          0x66c6  (26310)
 .const                      0x4684                0x1e            0x2d  (45)
-.text                       0x46a2               0xe40          0x1560  (5472)
-.dinit                      0x54e2               0x126           0x1b9  (441)
-.text                       0x5608               0x502           0x783  (1923)
+.text                       0x46a2               0xe36          0x1551  (5457)
+.dinit                      0x54d8               0x126           0x1b9  (441)
+.text                       0x55fe               0x502           0x783  (1923)
 
-                 Total "program" memory used (bytes):         0x858f  (34191) 52%
+                 Total "program" memory used (bytes):         0x8580  (34176) 52%
 
 
 "data" Memory  [Origin = 0x800, Length = 0x2000]
@@ -524,81 +524,81 @@ External Symbols in Program Memory (by address):
                   0x005368                  _ISR_UART1_CALLBACK
                   0x005382                  _init_EMICfb
                   0x005394                  _poll_fieldBusTransport
-                  0x005418                  _send_fbTransport
-                  0x005458                  _empty_buffer
-                  0x00546a                  _poll_sensors
-                  0x005608                  _Init_Master_I2C2
-                  0x005670                  _CollisionReset_I2C2
-                  0x005678                  _OverflowReset_I2C2
-                  0x005680                  _IsStartI2c2
-                  0x00568c                  _IsCollisionDetectI2c2
-                  0x005698                  _IsStopI2c2
-                  0x0056a4                  _IsReceiveBufferFullI2c2
-                  0x0056b0                  _IsDataOrAddressI2c2
-                  0x0056bc                  _IsReceiveOverflowI2c2
-                  0x0056c8                  _Start_I2C2
-                  0x0056da                  _Stop_I2C2
-                  0x0056ec                  _Write_I2C2
-                  0x0056f8                  _Read_I2C2
-                  0x00570c                  _pI2C
-                  0x005728                  _EMICBus_init
-                  0x005736                  _poll_EMICBus
-                  0x00580c                  _emicFBp
-                  0x005824                  _poll_EMICfb
-                  0x005878                  _getBusStreamIn
-                  0x005882                  _countBusStreamIn
-                  0x00588a                  _setBusStreamOut
-                  0x00589a                  _countBusStreamOut
-                  0x0058a2                  _LEDs_Led1_init
-                  0x0058aa                  _LEDs_Led1_blink
-                  0x0058ca                  _LEDs_Led1_poll
-                  0x005928                  _LEDs_Led2_init
-                  0x005930                  _LEDs_Led2_blink
-                  0x005950                  _LEDs_Led2_poll
-                  0x0059ae                  _LEDs_Led3_init
-                  0x0059b6                  _LEDs_Led3_blink
-                  0x0059d6                  _LEDs_Led3_poll
-                  0x005a34                  _SystemConfig
-                  0x005a3e                  _onReset
-                  0x005a5c                  _emicFBe
-                  0x005a7c                  _eI2C
-                  0x005a9c                  _initSystem
-                  0x005aaa                  _main
-                  0x005ace                  _getSystemMilis
-                  0x005ad8                  _callback
-                  0x005aea                  _systemTimeInit
-                  0x005af4                  _timer4_init
+                  0x00540e                  _send_fbTransport
+                  0x00544e                  _empty_buffer
+                  0x005460                  _poll_sensors
+                  0x0055fe                  _Init_Master_I2C2
+                  0x005666                  _CollisionReset_I2C2
+                  0x00566e                  _OverflowReset_I2C2
+                  0x005676                  _IsStartI2c2
+                  0x005682                  _IsCollisionDetectI2c2
+                  0x00568e                  _IsStopI2c2
+                  0x00569a                  _IsReceiveBufferFullI2c2
+                  0x0056a6                  _IsDataOrAddressI2c2
+                  0x0056b2                  _IsReceiveOverflowI2c2
+                  0x0056be                  _Start_I2C2
+                  0x0056d0                  _Stop_I2C2
+                  0x0056e2                  _Write_I2C2
+                  0x0056ee                  _Read_I2C2
+                  0x005702                  _pI2C
+                  0x00571e                  _EMICBus_init
+                  0x00572c                  _poll_EMICBus
+                  0x005802                  _emicFBp
+                  0x00581a                  _poll_EMICfb
+                  0x00586e                  _getBusStreamIn
+                  0x005878                  _countBusStreamIn
+                  0x005880                  _setBusStreamOut
+                  0x005890                  _countBusStreamOut
+                  0x005898                  _LEDs_Led1_init
+                  0x0058a0                  _LEDs_Led1_blink
+                  0x0058c0                  _LEDs_Led1_poll
+                  0x00591e                  _LEDs_Led2_init
+                  0x005926                  _LEDs_Led2_blink
+                  0x005946                  _LEDs_Led2_poll
+                  0x0059a4                  _LEDs_Led3_init
+                  0x0059ac                  _LEDs_Led3_blink
+                  0x0059cc                  _LEDs_Led3_poll
+                  0x005a2a                  _SystemConfig
+                  0x005a34                  _onReset
+                  0x005a52                  _emicFBe
+                  0x005a72                  _eI2C
+                  0x005a92                  _initSystem
+                  0x005aa0                  _main
+                  0x005ac4                  _getSystemMilis
+                  0x005ace                  _callback
+                  0x005ae0                  _systemTimeInit
+                  0x005aea                  _timer4_init
 
 External Symbols in Program Memory (by name):
 
-                  0x005670                  _CollisionReset_I2C2
-                  0x005728                  _EMICBus_init
+                  0x005666                  _CollisionReset_I2C2
+                  0x00571e                  _EMICBus_init
                   0x004f54                  _I2C_Begin_Transmision
                   0x005168                  _I2c_driver_callback_master
                   0x005128                  _I2c_driver_callback_slave
                   0x005368                  _ISR_UART1_CALLBACK
                   0x004f18                  _Init_I2C_Driver
-                  0x005608                  _Init_Master_I2C2
-                  0x00568c                  _IsCollisionDetectI2c2
-                  0x0056b0                  _IsDataOrAddressI2c2
-                  0x0056a4                  _IsReceiveBufferFullI2c2
-                  0x0056bc                  _IsReceiveOverflowI2c2
-                  0x005680                  _IsStartI2c2
-                  0x005698                  _IsStopI2c2
-                  0x0058aa                  _LEDs_Led1_blink
-                  0x0058a2                  _LEDs_Led1_init
-                  0x0058ca                  _LEDs_Led1_poll
-                  0x005930                  _LEDs_Led2_blink
-                  0x005928                  _LEDs_Led2_init
-                  0x005950                  _LEDs_Led2_poll
-                  0x0059b6                  _LEDs_Led3_blink
-                  0x0059ae                  _LEDs_Led3_init
-                  0x0059d6                  _LEDs_Led3_poll
-                  0x005678                  _OverflowReset_I2C2
-                  0x0056f8                  _Read_I2C2
-                  0x0056c8                  _Start_I2C2
-                  0x0056da                  _Stop_I2C2
-                  0x005a34                  _SystemConfig
+                  0x0055fe                  _Init_Master_I2C2
+                  0x005682                  _IsCollisionDetectI2c2
+                  0x0056a6                  _IsDataOrAddressI2c2
+                  0x00569a                  _IsReceiveBufferFullI2c2
+                  0x0056b2                  _IsReceiveOverflowI2c2
+                  0x005676                  _IsStartI2c2
+                  0x00568e                  _IsStopI2c2
+                  0x0058a0                  _LEDs_Led1_blink
+                  0x005898                  _LEDs_Led1_init
+                  0x0058c0                  _LEDs_Led1_poll
+                  0x005926                  _LEDs_Led2_blink
+                  0x00591e                  _LEDs_Led2_init
+                  0x005946                  _LEDs_Led2_poll
+                  0x0059ac                  _LEDs_Led3_blink
+                  0x0059a4                  _LEDs_Led3_init
+                  0x0059cc                  _LEDs_Led3_poll
+                  0x00566e                  _OverflowReset_I2C2
+                  0x0056ee                  _Read_I2C2
+                  0x0056be                  _Start_I2C2
+                  0x0056d0                  _Stop_I2C2
+                  0x005a2a                  _SystemConfig
                   0x004ef6                  _UART1_IN_count
                   0x004eec                  _UART1_IN_pop
                   0x004ec8                  _UART1_OFF
@@ -617,7 +617,7 @@ External Symbols in Program Memory (by name):
                   0x004ce4                  _UART1_pop
                   0x004c8e                  _UART1_push
                   0x004d38                  _UART1_simplexMode
-                  0x0056ec                  _Write_I2C2
+                  0x0056e2                  _Write_I2C2
                   0x0003f2                  __DefaultInterrupt
                   0x0003cc                  __MI2C2Interrupt
                   0x0003a6                  __SI2C2Interrupt
@@ -722,38 +722,38 @@ External Symbols in Program Memory (by name):
                   0x000a7e                  _atoi
                   0x000ade                  _atol
                   0x000b46                  _atoll
-                  0x005ad8                  _callback
+                  0x005ace                  _callback
                   0x004160                  _copysignl
-                  0x005882                  _countBusStreamIn
-                  0x00589a                  _countBusStreamOut
+                  0x005878                  _countBusStreamIn
+                  0x005890                  _countBusStreamOut
                   0x004f38                  _countI2cStreamIn
-                  0x005a7c                  _eI2C
-                  0x005a5c                  _emicFBe
-                  0x00580c                  _emicFBp
-                  0x005458                  _empty_buffer
+                  0x005a72                  _eI2C
+                  0x005a52                  _emicFBe
+                  0x005802                  _emicFBp
+                  0x00544e                  _empty_buffer
                   0x004194                  _fabsl
                   0x0041aa                  _floorl
                   0x0042a4                  _fmodl
                   0x004f24                  _getAvailable_out_count
-                  0x005878                  _getBusStreamIn
+                  0x00586e                  _getBusStreamIn
                   0x004f40                  _getI2cStreamIn
-                  0x005ace                  _getSystemMilis
+                  0x005ac4                  _getSystemMilis
                   0x00509a                  _i2cCloseWriteFrame
                   0x0050dc                  _i2cOpenReadFrame
                   0x004f6e                  _ini_I2C_IN
                   0x004f98                  _ini_I2C_OUT
                   0x004fc2                  _ini_I2C_OUT_FM
-                  0x005a9c                  _initSystem
+                  0x005a92                  _initSystem
                   0x005382                  _init_EMICfb
-                  0x005aaa                  _main
+                  0x005aa0                  _main
                   0x002616                  _memcpy
                   0x000baa                  _memset
-                  0x005a3e                  _onReset
-                  0x00570c                  _pI2C
-                  0x005736                  _poll_EMICBus
-                  0x005824                  _poll_EMICfb
+                  0x005a34                  _onReset
+                  0x005702                  _pI2C
+                  0x00572c                  _poll_EMICBus
+                  0x00581a                  _poll_EMICfb
                   0x005394                  _poll_fieldBusTransport
-                  0x00546a                  _poll_sensors
+                  0x005460                  _poll_sensors
                   0x005042                  _pop_I2C_IN
                   0x005066                  _pop_I2C_OUT
                   0x00508a                  _pop_I2C_OUT_FM
@@ -763,8 +763,8 @@ External Symbols in Program Memory (by name):
                   0x0045d0                  _scalbnf
                   0x004624                  _scalbnl
                   0x00493c                  _sendDataToStream
-                  0x005418                  _send_fbTransport
-                  0x00588a                  _setBusStreamOut
+                  0x00540e                  _send_fbTransport
+                  0x005880                  _setBusStreamOut
                   0x004f48                  _setI2cStreamOut
                   0x000c72                  _snprintf
                   0x00355c                  _strcpy
@@ -796,8 +796,8 @@ External Symbols in Program Memory (by name):
                   0x000cdc                  _strtod
                   0x000cd6                  _strtof
                   0x000ce2                  _strtold
-                  0x005aea                  _systemTimeInit
-                  0x005af4                  _timer4_init
+                  0x005ae0                  _systemTimeInit
+                  0x005aea                  _timer4_init
                   0x002654                  _tolower
                   0x00356a                  _toupper
                   0x002096                  _vfprintf
@@ -2322,7 +2322,7 @@ __xc_reference_data
                     0xc698                  _streamOut_I2C
  .const             0xc69c          0x6 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/userFncFile.o
 
-.text             0x0046a2        0xe40
+.text             0x0046a2        0xe36
  .text            0x0046a2        0x598 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/streamIn.o
                   0x0046a2                  _streamIn_t_ptr_to_float
                   0x0046de                  _streamIn_t_ptr_to_char
@@ -2383,66 +2383,66 @@ __xc_reference_data
                   0x0052da                  _streamOpenReadFrame
                   0x005326                  _streamReOpenReadFrame
                   0x00533e                  _streamCloseReadFrame
- .text            0x005368        0x17a /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/Transport.o
+ .text            0x005368        0x170 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/Transport.o
                   0x005368                  _ISR_UART1_CALLBACK
                   0x005382                  _init_EMICfb
                   0x005394                  _poll_fieldBusTransport
-                  0x005418                  _send_fbTransport
-                  0x005458                  _empty_buffer
-                  0x00546a                  _poll_sensors
+                  0x00540e                  _send_fbTransport
+                  0x00544e                  _empty_buffer
+                  0x005460                  _poll_sensors
 
-.dinit            0x0054e2        0x126
- .dinit           0x0054e2        0x126 data_init
+.dinit            0x0054d8        0x126
+ .dinit           0x0054d8        0x126 data_init
 
-.text             0x005608        0x502
- .text            0x005608        0x104 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o
-                  0x005608                  _Init_Master_I2C2
-                  0x005670                  _CollisionReset_I2C2
-                  0x005678                  _OverflowReset_I2C2
-                  0x005680                  _IsStartI2c2
-                  0x00568c                  _IsCollisionDetectI2c2
-                  0x005698                  _IsStopI2c2
-                  0x0056a4                  _IsReceiveBufferFullI2c2
-                  0x0056b0                  _IsDataOrAddressI2c2
-                  0x0056bc                  _IsReceiveOverflowI2c2
-                  0x0056c8                  _Start_I2C2
-                  0x0056da                  _Stop_I2C2
-                  0x0056ec                  _Write_I2C2
-                  0x0056f8                  _Read_I2C2
- .text            0x00570c        0x100 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/EMICBus.o
-                  0x00570c                  _pI2C
-                  0x005728                  _EMICBus_init
-                  0x005736                  _poll_EMICBus
- .text            0x00580c         0x96 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/EmicFieldBus.o
-                  0x00580c                  _emicFBp
-                  0x005824                  _poll_EMICfb
-                  0x005878                  _getBusStreamIn
-                  0x005882                  _countBusStreamIn
-                  0x00588a                  _setBusStreamOut
-                  0x00589a                  _countBusStreamOut
- .text            0x0058a2         0x86 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led1.o
-                  0x0058a2                  _LEDs_Led1_init
-                  0x0058aa                  _LEDs_Led1_blink
-                  0x0058ca                  _LEDs_Led1_poll
- .text            0x005928         0x86 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led2.o
-                  0x005928                  _LEDs_Led2_init
-                  0x005930                  _LEDs_Led2_blink
-                  0x005950                  _LEDs_Led2_poll
- .text            0x0059ae         0x86 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led3.o
-                  0x0059ae                  _LEDs_Led3_init
-                  0x0059b6                  _LEDs_Led3_blink
-                  0x0059d6                  _LEDs_Led3_poll
- .text            0x005a34         0x68 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/userFncFile.o
-                  0x005a34                  _SystemConfig
-                  0x005a3e                  _onReset
-                  0x005a5c                  _emicFBe
-                  0x005a7c                  _eI2C
- .text            0x005a9c         0x32 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/main.o
-                  0x005a9c                  _initSystem
-                  0x005aaa                  _main
- .text            0x005ace         0x26 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/systemTimer.o
-                  0x005ace                  _getSystemMilis
-                  0x005ad8                  _callback
-                  0x005aea                  _systemTimeInit
- .text            0x005af4         0x16 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/timer.o
-                  0x005af4                  _timer4_init
+.text             0x0055fe        0x502
+ .text            0x0055fe        0x104 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/I2C2.o
+                  0x0055fe                  _Init_Master_I2C2
+                  0x005666                  _CollisionReset_I2C2
+                  0x00566e                  _OverflowReset_I2C2
+                  0x005676                  _IsStartI2c2
+                  0x005682                  _IsCollisionDetectI2c2
+                  0x00568e                  _IsStopI2c2
+                  0x00569a                  _IsReceiveBufferFullI2c2
+                  0x0056a6                  _IsDataOrAddressI2c2
+                  0x0056b2                  _IsReceiveOverflowI2c2
+                  0x0056be                  _Start_I2C2
+                  0x0056d0                  _Stop_I2C2
+                  0x0056e2                  _Write_I2C2
+                  0x0056ee                  _Read_I2C2
+ .text            0x005702        0x100 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/EMICBus.o
+                  0x005702                  _pI2C
+                  0x00571e                  _EMICBus_init
+                  0x00572c                  _poll_EMICBus
+ .text            0x005802         0x96 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/EmicFieldBus.o
+                  0x005802                  _emicFBp
+                  0x00581a                  _poll_EMICfb
+                  0x00586e                  _getBusStreamIn
+                  0x005878                  _countBusStreamIn
+                  0x005880                  _setBusStreamOut
+                  0x005890                  _countBusStreamOut
+ .text            0x005898         0x86 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led1.o
+                  0x005898                  _LEDs_Led1_init
+                  0x0058a0                  _LEDs_Led1_blink
+                  0x0058c0                  _LEDs_Led1_poll
+ .text            0x00591e         0x86 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led2.o
+                  0x00591e                  _LEDs_Led2_init
+                  0x005926                  _LEDs_Led2_blink
+                  0x005946                  _LEDs_Led2_poll
+ .text            0x0059a4         0x86 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/led_Led3.o
+                  0x0059a4                  _LEDs_Led3_init
+                  0x0059ac                  _LEDs_Led3_blink
+                  0x0059cc                  _LEDs_Led3_poll
+ .text            0x005a2a         0x68 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/userFncFile.o
+                  0x005a2a                  _SystemConfig
+                  0x005a34                  _onReset
+                  0x005a52                  _emicFBe
+                  0x005a72                  _eI2C
+ .text            0x005a92         0x32 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/main.o
+                  0x005a92                  _initSystem
+                  0x005aa0                  _main
+ .text            0x005ac4         0x26 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/systemTimer.o
+                  0x005ac4                  _getSystemMilis
+                  0x005ace                  _callback
+                  0x005ae0                  _systemTimeInit
+ .text            0x005aea         0x16 /root/Dropbox/EMIC/TARGETS/luciano.rottoli__rfindustrial.com/PruebasModulos/HRD_E-CTR-B_2/build/default/production/timer.o
+                  0x005aea                  _timer4_init

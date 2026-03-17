@@ -61,7 +61,7 @@ uint8_t sensor_polled = 1;
 void ISR_UART1_CALLBACK(char d)
 {
 	UART1_push(&UART1_IN_fifo, d);
-	if (d == FrameLf)
+	if (d == (char)FrameLf)
 	{
 		Transport_frame_count++;
 	}
@@ -116,8 +116,9 @@ void poll_fieldBusTransport()
 		while(UART1_IN_count()) //else store the message on internal buffer (sends from UART to IN buffer)
 		{
 			data = UART1_IN_pop();
-			//if (data == FrameLf) break;
+			
 			streamPush(&fieldBusInStream, data);
+			if (data == (uint8_t)FrameLf) break;
 		}
 		if (fieldBusInStream.data_count_entr)
 		{
@@ -128,7 +129,7 @@ void poll_fieldBusTransport()
 
 void send_fbTransport(void)				//sends from OUT buffer to UART
 {
-	uint8_t data;
+	uint8_t data=0;
 	UART1_OUT_push(My_ID);
 	streamOpenReadFrame(&fieldBusOutStream);
 	while (fieldBusOutStream.data_count_sal !=0 && data != FrameLf)
