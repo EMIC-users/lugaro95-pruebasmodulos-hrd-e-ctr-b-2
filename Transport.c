@@ -110,6 +110,7 @@ void poll_fieldBusTransport()
 
                 if (data == My_ID)
                 {
+                	discard_current_frame();   // <-- CAMBIO
                     if (fieldBusOutStream.frame_count > 0)
                     {
                         send_fbTransport();
@@ -120,8 +121,6 @@ void poll_fieldBusTransport()
                         UART1_OUT_push(FrameLf);
                     }
                 }
-
-                discard_current_frame();   // <-- CAMBIO
             }
             return;
         }
