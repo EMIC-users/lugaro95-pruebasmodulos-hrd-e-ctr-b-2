@@ -60,11 +60,12 @@ uint8_t sensor_polled = 1;
 // UART RX callback: pushes received bytes to FIFO and detects frames
 void ISR_UART1_CALLBACK(char d)
 {
-	UART1_push(&UART1_IN_fifo, d);
 	if (d == (char)FrameLf)
 	{
 		Transport_frame_count++;
+		return;
 	}
+	UART1_push(&UART1_IN_fifo, d);
 }
 
 void init_EMICfb ()
@@ -118,7 +119,7 @@ void poll_fieldBusTransport()
 			data = UART1_IN_pop();
 			
 			streamPush(&fieldBusInStream, data);
-			if (data == (uint8_t)FrameLf) break;
+			//if (data == (uint8_t)FrameLf) break;
 		}
 		if (fieldBusInStream.data_count_entr)
 		{
